@@ -1,1 +1,1 @@
-"# queue_voice_transcript" 
+# Voice Transcript via Redis Queue System  
