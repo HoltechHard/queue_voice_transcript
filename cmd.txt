@@ -1,0 +1,39 @@
+=========================================
+|       SPEECH-TO-TEXT RECOGNITION      |
+=========================================
+
+* System architecture
+
+project/
+?
+??? .env
+??? audio_transcription.py
+??? run_whisper.bat
+?
+??? voice/
+?   ??? test.ogg
+?
+??? sttx_env/
+??? python-clients/
+
+
+1) model nvidia stt:
+
+whisper-large-v3 model from openai
+
+2) clone the python repo:
+
+$ git clone https://github.com/nvidia-riva/python-clients.git
+
+3) run the script run_whisper.bat for windows
+
+$ .\run_whisper.bat
+
+or run the script exec_stt.sh for linux 
+
+$ chmod +x exec_stt.sh 
+$ ./exec_stt.sh
+
+4) to execute the program
+
+$ python audio_transcript.py
